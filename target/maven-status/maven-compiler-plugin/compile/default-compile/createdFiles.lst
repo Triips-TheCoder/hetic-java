@@ -1,0 +1,8 @@
+Operation.class
+fr/hetic/Calculateur.class
+Multiplication.class
+Addition.class
+fr/hetic/CalculateurPF.class
+fr/hetic/FileProcessor.class
+Subtraction.class
+OperationFactory.class

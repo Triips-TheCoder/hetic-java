@@ -1,8 +1,10 @@
+package fr.hetic;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.function.BinaryOperator;
 
-public class Calculateur {
+public class CalculateurPF {
     private static final Map<String, BinaryOperator<Double>> OPERATEURS = new HashMap<>();
 
     static {

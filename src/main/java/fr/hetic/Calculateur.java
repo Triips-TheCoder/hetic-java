@@ -1,3 +1,5 @@
+package fr.hetic;
+
 public class Calculateur {
     public static void main(String[] args) {
         if (args.length != 3) {

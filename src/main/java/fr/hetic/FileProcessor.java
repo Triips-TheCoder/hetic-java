@@ -1,6 +1,7 @@
-import java.io.;
-import java.nio.file.;
-import java.util.*;
+package fr.hetic;
+
+import java.io.*;
+
 
 public class FileProcessor {
     public static void main(String[] args) {
@@ -28,7 +29,7 @@ public class FileProcessor {
                     double num1 = Double.parseDouble(parts[0]);
                     double num2 = Double.parseDouble(parts[1]);
                     String operator = parts[2];
-                    double result = Calculateur.calculate(num1, num2, operator);
+                    double result = Calculateur.calculer(num1, num2, operator);
                     writer.write(String.valueOf(result));
                 } catch (Exception e) {
                     writer.write("ERROR");
