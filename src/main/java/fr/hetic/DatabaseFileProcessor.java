@@ -27,10 +27,8 @@ public class DatabaseFileProcessor {
                 int fileId = resultSet.getInt("ID");
                 String fileName = resultSet.getString("NOM");
 
-                // Générer le nom du fichier par convention
                 String filePath = generateFilePath(fileName);
 
-                // Écrire les données dans le fichier
                 writeDataToFile(filePath, fileId);
             }
             System.out.println("Traitement des fichiers terminé avec succès.");
