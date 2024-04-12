@@ -1,7 +1,7 @@
 package fr.hetic;
 
 public class Calculateur {
-    public static void main(String[] args) {
+    public static void setupCalculateur(String[] args) {
         if (args.length != 3) {
             System.out.println("Usage: java Calculateur <numérique> <numérique> <opérateur>");
             return;

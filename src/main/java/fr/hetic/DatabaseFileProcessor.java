@@ -58,7 +58,7 @@ public class DatabaseFileProcessor {
     }
 
     private static String generateFilePath(String fileName) {
-        return "../../../database-output" + fileName + ".txt";
+        return "../../database-output" + fileName + ".txt";
     }
 
     private static void writeDataToFile(String filePath, int fileId) throws IOException {
